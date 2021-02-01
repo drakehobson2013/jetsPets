@@ -1,0 +1,39 @@
+#ein{
+    /* display: flex; */
+    position: relative;
+    top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    background-color: rgba(98, 94, 94, 0.281);
+}
+#einPics{
+    position: relative;
+    top: 25px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.carousel-inner img {
+    margin: auto;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+  }
+
+.carousel-control-prev {
+    justify-content: center;
+    margin-left: 600px;
+
+  }
+.carousel-control-next {
+    justify-content: center;
+    margin-right: 600px;
+
+  }
+  body{
+      background-image: url(./assets/Background.jpg);
+      background-size: cover;
+    width: 100%;
+    height: 100;
+    position: relative;
+  }
