@@ -1,3 +1,10 @@
+.navbar{
+  height: 60px;
+}
+.footer{
+  height: 70px;
+}
+
 #ein{
     /* display: flex; */
     position: relative;
@@ -15,7 +22,7 @@
     
 }
 
-.carousel-inner img {
+.carousel-home img {
     margin: auto;
     border-radius: 50%;
     height: 400px;
@@ -23,12 +30,12 @@
     box-shadow: #5bc0de 0px 0px 10px 0px;
 }
 
-.carousel-control-prev {
+.home-control {
     justify-content: center;
     margin-left: 630px;
 
 }
-.carousel-control-next {
+.home-control {
     justify-content: center;
     margin-right: 630px;
   
@@ -58,3 +65,31 @@ body{
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
+#adopt{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.carousel-adoption img{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  height: 200px;
+}
+
+.adoptMe{
+  background-color: snow;
+}
+
+
+#market{
+  display: flex;
+ flex-wrap: wrap;
+}
+
+div.carousel-caption{
+  margin-bottom: -10px;
+}
+
