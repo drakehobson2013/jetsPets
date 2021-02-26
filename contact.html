@@ -15,46 +15,89 @@
     
     <header>
       <!-- Fixed navbar -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <img src="./assets/Jet's Pet's.jpg" style="height: 60px; border-radius: 50%;" alt=""> Jet's Pet's</a>
-          <button class="navbar-toggler" type="button">
-            <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="#"> <img src="./assets/Jet's Pet's.jpg" style="height: 60px; border-radius: 50%;" alt=""> Jet's Pets</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search">
-              <button class="btn btn-outline-light" type="submit">Search</button>
-            </form>
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./store.html">Store</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./adoption.html">Adoption</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="./contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="./store.html">Store</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="./adoption.html">Adoption</a>
+        </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+        </ul>
         </div>
-      </nav>
+        </div>
+        </nav>
+
 
       
     </header>
     
     <!-- Begin page content -->
-    <main class="flex-shrink-0">
+    <section class="contact-container">
+    <main class=" container-fluid">
       
+      <div class="spike">
+        <div class="row">
+          <div class="col-xs-2 col-3">
+            <img src="./assets/Jet and Ein.jpg" alt="Jet and Ein" style="height: 770px;" id="Jet" >
+          </div>
+          <div class="col-xs-3 col-3 bg-light text-center" id="meet" >
+              <h1><u>Meet the Owner</u> </h1>
+              <h2><em>Jet Black</em></h2>
+              <p>Jet has always been an animal lover. As a young child, he began collecting all manner of "pets", including snakes, turtles, guinea pigs, ducks, rabbits, horses, kittens, and of course, dogs.
+
+              As an adult, Jet's love of animals has only grown.  That love, coupled with his savvy business skills, background in psychology, and an honest desire to help people, assures that he and the puppy shop is a match made in heaven.</p>
+           
+            <div id="social-box"> 
+              <h4><u>Follow Us</u></h4>
+                <a href="#">
+                  <img src="./assets/IG-Logo.jpg" style="height: 75px;" alt="Instagram">
+                </a>
+                <a href="#">
+                  <img src="./assets/Twitter-Logo.jpg" style="height: 75px;" alt="Twitter">
+                </a>
+                <a href="#">
+                  <img src="./assets/TikTok-logo.jpg" style="height: 75px;" alt="TikTok">
+                </a>
+              
+              </div>
+          </div>
+          <div class="col-xs-2 col-5 text-center">
+            <img src="./assets/Cowboy Crew.jpg" class="img-fluid" alt="Cowboy Bebop Crew" id="crew">
+            <div>
+              
+            </div>
+            <div class="bg-light text-center" id="contact-box">
+              <h4>The Loving Staff of Jet's Pets</h4>
+              <h1><u>Contact Us</u></h1>
+              <div>
+               <p>Phone: 281-330-8004</p>
+               <p>Email: Inquiry@JetsPets.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       
     </main>
-    
-    <footer class="footer mt-auto py-3 bg-info fixed-bottom">
+  </section>
+    <footer class="footer mt-auto py-3 fixed-bottom">
       <div class="container-fluid">
         <img src="./assets/giphy.gif" class="img-fluid" style="height: 50px;" alt="">
         <span class="text-light"><em>Your Pet, Our Passion.</em></span>
@@ -65,7 +108,8 @@
     </footer>
     
     
-        
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
           
       </body>

@@ -1,10 +1,18 @@
+
+/* Nav CSS */
 .navbar{
   height: 60px;
-}
-.footer{
-  height: 70px;
+  background: url(./assets/Nav-bg.jpg);
 }
 
+
+/* Footer CSS */
+.footer{
+  height: 70px;
+  background: black;
+}
+
+/* Home Page */
 #ein{
     /* display: flex; */
     position: relative;
@@ -12,7 +20,7 @@
     margin-bottom: 100px;
     justify-content: center;
     width: 750px;
-    
+     
 }
 #einPics{
     position: relative;
@@ -24,21 +32,20 @@
 
 .carousel-home img {
     margin: auto;
-    border-radius: 50%;
+    border-radius: 35%;
     height: 400px;
     width: 400px;
-    box-shadow: #5bc0de 0px 0px 10px 0px;
+    border: 1px solid white;
 }
 
 .home-control {
     justify-content: center;
-    margin-left: 630px;
+    margin-left: 550px;
 
 }
 .home-control {
     justify-content: center;
-    margin-right: 630px;
-  
+    margin-right: 550px;
 }
 
 #einInfo{ 
@@ -47,23 +54,29 @@
   margin-bottom: 500px;
   justify-content: center;
   width: 1000px;
-}
-
-.jumbotron{
-  box-shadow: #5bc0de 0px 0px 5px 10px;
-}
-
-body{
-  background: black;
+  
 }
 
 .spaceCowboy{
   font-family: cursive;
+  color: black;
 }
 
-#shop{
+.home-container{
+  margin-top: 75px;
+  margin-bottom: 100px;
+}
+.store-container{
   margin-top: 100px;
   margin-bottom: 100px;
+}
+.adoption-container{
+  margin-top: 75px;
+  margin-bottom: 100px;
+}
+.contact-container{
+  margin-top: 120px;
+  margin-bottom: px;
 }
 
 #adopt{
@@ -83,6 +96,10 @@ body{
   background-color: snow;
 }
 
+.spike{
+  display: flex;
+  flex-direction: row-reverse;
+}
 
 #market{
   display: flex;
@@ -90,6 +107,148 @@ body{
 }
 
 div.carousel-caption{
-  margin-bottom: -10px;
+  margin-bottom: -30px;
 }
 
+body{
+  background: url(./assets/Store-BG.jpg);
+  
+}
+
+.pricing-header{
+  background: white;
+}
+
+#adoption-indicators{
+  margin-bottom: -30px;
+}
+
+#Jet{
+  border: 5px solid black;
+  margin-left: 5px;
+}
+
+#meet{
+  border: 5px solid black;
+  margin-left: 40px;
+  height: fit-content;
+}
+
+#crew{
+  border: 2px solid black;
+  border-radius: 1%;
+}
+
+#social-box{
+  position: relative;
+  padding-bottom: 363px;
+  top: 270px;
+}
+#contact-box{
+  border: 1px solid black;
+  border-radius: 1%; 
+  height: 197px;
+  
+}
+
+.carousel-control-prev-icon{
+  background-image: url(./assets/Prev-Arrow.png);
+  height: 100px;
+  width: 100px;
+}
+.carousel-control-next-icon{
+  background-image: url(./assets/Next-Arrow.png);
+  height: 100px;
+  width: 100px;
+}
+
+
+.img-container{
+  background-color: white;
+}
+
+.img-container img{
+  margin-right: 10px;
+}
+
+.adoption-img{
+  height: 200px;
+  width: 240px;
+  border: 2px solid black;
+  border-radius: 25%;
+}
+
+.animal-info{
+  background-color: white;
+  border: 1px solid black;
+}
+
+
+.col-3{
+margin-right: 0;
+padding: 0;
+}
+
+.col-xs-3{
+margin-right: 0;
+padding: 0;
+}
+
+.button{
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  margin-top: 10px;
+  display: inline-block;
+  
+}
+
+/* modal styling */
+
+.bg-modal{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-content{
+  width: 700px;
+  height: 500px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}
+.modal-content img{
+  width: 80px;
+  height: 60px;
+}
+.modal-content input{
+  width: 50%;
+  display: block;
+  margin: 15px auto;
+}
+.close{
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 42px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+/* @media screen and (min-width: 578px){
+ img{
+   height: 10px;
+ }
+} */
